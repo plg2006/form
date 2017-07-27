@@ -1,0 +1,30 @@
+{
+    "name": "plg/form",
+    "description": "Form management",
+    "type": "library",
+    "license": "MIT",
+    "keywords" : [
+        "playground",
+        "form"
+    ],
+    "authors": [
+        {
+            "name": "Playground",
+            "email": "web@playground.it"
+        },
+        {
+            "name": "Mirko Ferraro",
+            "email": "mirkoferraro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Plg\\": "src/",
+            "Plg\\Form\\": "src/Form/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "plg/util": ">=1.0.0"
+    }
+}
