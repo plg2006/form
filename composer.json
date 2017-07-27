@@ -7,6 +7,10 @@
         "playground",
         "form"
     ],
+    "support": {
+        "issues": "https://github.com/plg2006/form/issues",
+        "source": "https://github.com/plg2006/form"
+    },
     "authors": [
         {
             "name": "Playground",
